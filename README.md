@@ -1,2 +1,3 @@
-# Namste_React
+# Namaste_React
+
 React JS code and notes
