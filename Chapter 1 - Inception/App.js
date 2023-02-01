@@ -22,6 +22,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./Ch_03_CodingAssignment";
 import HeaderComponent from "./Ch_03_FC";
 
 import sub123, { add } from "./utlis";
@@ -32,6 +33,7 @@ const heading = (
   <div>
     {Title()}
     <HeaderComponent />
+    <Header />
   </div>
 );
 
