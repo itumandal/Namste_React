@@ -1,0 +1,119 @@
+/** Namaste React - Akshay Saini **/
+
+// Chapter 01 - Inception
+
+/** Read about these. **/
+1. What is CDN?
+2. What is CrossOrigin?
+3. What is the diff between async vs defer?
+
+
+//  Chapter 02 - Igniting our App 
+1. How do we understand if it is a prod ready server?
+Ans -> ● Minify our file -> remove console.logs, bundle things up..
+       ● need a server to run 
+       ● optimization->clean console-> bundle 
+
+# Bundlers are packages. If we want to use a package in our code, we have to use a 'package manager' -> npm OR yarn
+
+/** Read about these. **/
+    ● Webpack
+    ● Parcel
+    ● Vite
+    ● create-react-app uses which bundlers?
+
+# Bundlers -->  ● minify code ● remove console.log 
+
+# Command to install npm 
+    ● npm init
+    ● package name: yourPackagename
+    ● version: yourVersionname
+    ● description: Project description
+    ● entry point: App.js or any entry point of your Project
+    ● test command: jest
+    ● git repository: git url
+    ● keywords:________
+    ● author: Itu Mandal
+    ● license: (ISC)
+
+    Is this ok? Yes
+
+
+# How to install parcel?
+● npm i -D parcel  OR npm install --save-dev parcel
+
+// Dev dependency means all the packages that the project needs
+
+# parcel :'^2.8.2'
+# Read about Caret vs tilds (^/~)
+
+# package-lock.json
+● tells us the exact version we are using -> locks the version of package
+● never put in git ignore
+● always put in git project
+
+#package.json--> the latest version and if we use ^ then it will automatically update to latest version of that package.
+
+# node_modules -> database of your npm, always add to .gitignore file
+
+
+#npm i react
+#npm i react-dom
+
+
+# IGNITE OUR APP 
+● npx parcel index.html
+// it will launch a server for us -> http://localhost:1234
+
+// <script type ='module' src='App.js'></script>
+
+
+## ****  PARCEL  **** ##
+● Parcel is a beast - Akshay Saini
+● HMR - Hot Module Replacement
+● File Watcher Algorithm (C++) 
+● Minification
+● Bundled
+● Dev & prod build
+● Super fast build algorithm
+● image optimization
+● caching while development
+● compression
+● compatible with older version of browser
+● HTTPS on dev --> npx parcel index.html --https
+● manages port number
+● consitent hashing algorithm
+● Zero config
+
+# How to run prod server from parcel ?
+Ans -> npx parcel build index.html
+
+# should we put .parcel-cache in git-ignore? Why
+Ans -> YES , anything which we can be auto generated in server, can be put in gitignore file
+
+# why is React app fast?
+Ans -> ● Virtual dom
+        ● Parcel
+        ● dependencies -> bundlers
+
+## Transitive dependencies --> we have our package manager which handles and takes care of our transitive dependency of our code. Meaning 1 dependency and then inside that other dependency and then inside that 2 other dependencies and the list goes on.. This entire process is known as Transitive dependencies.
+
+## Interview Ques ● How do you build a prod ready app?
+
+# browserlist:--> it is used to make our code compatible for older browsers
+    'browserslist': [
+        'last 2 versions'
+    ]
+
+# How many diff types of script in HTML?
+
+
+
+
+
+
+
+
+
+
+

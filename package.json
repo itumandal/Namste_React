@@ -1,0 +1,33 @@
+{
+  "name": "namste_react",
+  "version": "1.0.0",
+  "description": "This is a React course from Zero to hero by Akshay Saini",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itumandal/Namste_React.git"
+  },
+  "author": "Itu Mandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itumandal/Namste_React/issues"
+  },
+  "homepage": "https://github.com/itumandal/Namste_React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 5 versions"
+  ]
+}
