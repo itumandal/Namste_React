@@ -1,5 +1,5 @@
 import React from "react";
-import "./Assignment03.css";
+// import "./Assignment03.css";
 import logo from "./logo.png";
 import userIcon from "./user icon.png";
 
@@ -124,7 +124,7 @@ const OriginalComp = () => {
 - Add CSS to make it look nice
 */
 
-const Header = () => {
+const HeaderComponent = () => {
   return (
     <>
       <header className="header">
@@ -149,7 +149,7 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderComponent;
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<Header />);

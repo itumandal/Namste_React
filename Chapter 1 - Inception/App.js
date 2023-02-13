@@ -24,11 +24,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./Ch_03_CodingAssignment";
 import HeaderComponent from "./Ch_03_FC";
+import FoodVilla from "./FoodVilla";
 
-import sub123, { add } from "./utlis";
-const Title = () => {
-  return <h1 key={1}>Namaste React</h1>;
-};
+function App() {
+  return (
+    <>
+      <FoodVilla />
+    </>
+  );
+}
+
+/*
 const heading = (
   <div>
     {Title()}
@@ -36,7 +42,7 @@ const heading = (
     <Header />
   </div>
 );
-
+*/
 // const container = React.createElement(
 //   "div",
 //   {
@@ -45,4 +51,4 @@ const heading = (
 //   [heading, heading2]
 // );
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<App />);

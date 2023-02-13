@@ -109,6 +109,15 @@ Ans -> ● Virtual dom
 
 
 
+# Virtual DOM --> 
+1. A representation of DOM is known as Virtual DOM.
+2. Reconsciliation means that react uses a diff algorithm to find out the diff between actual DOM and virtual DOM & then it find out what needs to be updated and just updates or re-renders that small part.
+
+# React Fiber ?
+
+
+
+
 
 
 
